@@ -22,11 +22,11 @@ function setup() {
   dog.addImage(sadDog);
   dog.scale=0.15;
   
-  feed=createButton("Feed the dog");
+  feed=createButton("Alimenta al perro");
   feed.position(700,95);
   feed.mousePressed(feedDog);
 
-  addFood=createButton("Add Food");
+  addFood=createButton("Agregar Alimento");
   addFood.position(800,95);
   addFood.mousePressed(addFoods);
 
